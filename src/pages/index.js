@@ -14,7 +14,7 @@ class Index extends React.Component {
       allImages[i].style.borderWidth = "medium";
       allImages[i].style.borderStyle = "solid";
       allImages[i].style.borderColor = "#00f";
-      // allImages[i].image.transform = scaleX(-1);
+      allImages[i].style.transform = "scaleX(-1)";
 
     }
   }
